@@ -1,0 +1,28 @@
+.login-form {
+  display: flex;
+  justify-content: center;
+}
+
+#login {
+  width: 500px;
+  background-color: #b2a4ff;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.signup-form {
+  display: flex;
+  justify-content: center;
+}
+
+#signup {
+  width: 500px;
+  background-color: #b2a4ff;
+  padding: 20px;
+  border-radius: 12px;
+}
+
+.card-img {
+  width: auto;
+  height: 300px;
+}

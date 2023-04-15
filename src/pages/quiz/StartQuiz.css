@@ -1,0 +1,30 @@
+#options {
+  display: flex !important ;
+  justify-content: center !important ;
+  align-items: center !important ;
+  margin-bottom: 10px !important ;
+}
+
+#options label {
+  display: inline-block !important ;
+  width: 100%;
+
+  padding: 5px 10px !important ;
+  border: 2px solid #ccc !important ;
+  border-radius: 5px !important ;
+  cursor: pointer !important ;
+}
+
+#options label:hover {
+  background-color: #b3e59f !important ;
+}
+
+#options input[type="radio"] {
+  display: none !important ;
+}
+
+#options input[type="radio"]:checked + label {
+  border-color: #b3e59f !important ;
+  background-color: #b3e59f !important ;
+  color: #525252 !important ;
+}

@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Delicious+Handrawn&display=swap");
+
+#navbar {
+  background-color: #b2a4ff !important;
+}
+
+.nav-icons-link {
+  position: relative;
+  color: rgba(0, 0, 0, 0.705);
+  transition: 0.2s ease-in;
+}
+
+.nav-icons-link:hover {
+  color: black;
+}
+
+.nav-icons {
+  margin-top: 22px;
+  margin-right: 5px;
+}
+
+.logoImg {
+  width: 35px;
+}
+
+.logoText {
+  color: "#00235B";
+  font-size: 30px;
+  font-family: "Delicious Handrawn", cursive;
+}

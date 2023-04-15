@@ -1,0 +1,48 @@
+@import url("https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700&display=swap");
+
+.quiz-heading {
+  font-family: "Playfair Display", serif;
+  font-size: 45px;
+  font-weight: 600;
+}
+
+.form-control:focus,
+.form-select:focus {
+  border-color: #b2a4ff96 !important;
+  box-shadow: 0 0 0 0.2rem #b2a4ffa1 !important;
+}
+
+#gradingSystem {
+  background-color: #fff;
+}
+
+#gradingSystem option:hover {
+  background-color: #b2a4ff;
+}
+
+.tag {
+  color: #d44586;
+  background-color: #faeaf2;
+  font-size: 12px;
+  font-weight: 500;
+  padding: 5px 10px;
+  border-radius: 20px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+#play {
+  background-color: #b2a4ff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+  margin-top: 10px;
+}
+
+#play:hover {
+  background-color: #df75a5;
+}
